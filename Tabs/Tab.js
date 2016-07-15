@@ -45,10 +45,10 @@ function getStyles(props, context) {
     },
     button: {
       display: 'flex',
-      flexDirection: 'column',
+      flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'center',
-      height: props.label && props.icon ? 72 : 48
+      height: props.label && props.icon ? 47 : 48
     }
   };
 }
